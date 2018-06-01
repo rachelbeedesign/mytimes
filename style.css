@@ -1,0 +1,76 @@
+header {
+  display: inline-flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  border-bottom: solid #000 1px;
+  width: 100%;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: #fff;
+}
+
+.logo {
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px 30px;
+  display: inline-flex;
+}
+
+.logo p {
+  color: mediumaquamarine;
+  text-decoration: none;
+  padding: 0 0 0 10px;
+}
+
+nav {
+  text-decoration: none;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a {
+  padding: 20px 10px;
+  text-decoration: underline;
+  color: #000;
+}
+
+/* *****ROUND 3***** */
+
+.main {
+  display: inline-flex;
+  border: solid black 1px;
+  position: relative;
+  top: 90px;
+  z-index: 4;
+}
+
+.large {
+  width: 630px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.medium {
+  width: 300px;
+  display: flex;
+  margin: 15px;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+}
