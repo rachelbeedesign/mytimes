@@ -58,7 +58,9 @@ nav a {
   width: 630px;
   display: flex;
   flex-shrink: 0;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .column_medium {
@@ -76,7 +78,11 @@ nav a {
   flex-direction: column;
 }
 
-/* *****ROUND 3***** */
+/* *****ROUND 4***** */
+
+h1 {
+  font-size: 25px;
+}
 
 .article_image {
   display: flex;
@@ -87,7 +93,7 @@ nav a {
 }
 
 .article_story {
-  font-size: 170px;
+  font-size: 17px;
   color: #000;
 }
 
@@ -106,4 +112,18 @@ nav a {
 
 #cats {
   background-image: url("./images/img-story-1.png");
+}
+
+/* *****ROUND 5***** */
+
+.large_top {
+
+}
+
+.large_left {
+  width: 300px;
+}
+
+.large_right {
+  width: 300px;
 }
