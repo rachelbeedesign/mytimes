@@ -47,11 +47,13 @@ nav a {
 
 .main {
   display: inline-flex;
-  border: solid black 1px;
   position: relative;
   top: 90px;
   z-index: 4;
   font-family: Georgia;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
 }
 
 .column_large {
@@ -76,6 +78,7 @@ nav a {
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
+  align-content: stretch;
 }
 
 /* *****ROUND 4***** */
@@ -115,15 +118,28 @@ h1 {
 }
 
 /* *****ROUND 5***** */
-
-.large_top {
-
-}
-
 .large_left {
   width: 300px;
 }
 
 .large_right {
   width: 300px;
+}
+
+/* *****ROUND 5***** */
+.news_bites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news_bites li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: solid #000 1px;
+  margin: 0 0 0 -25px;
+  padding: 11px 20px;
+  list-style-type: none;
 }
