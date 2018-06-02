@@ -54,7 +54,6 @@ nav a {
   justify-content: center;
   width: 100%;
   margin: 20px;
-  background-color: #abcdef;
 }
 
 .column_large {
@@ -86,6 +85,7 @@ nav a {
 
 h1 {
   font-size: 25px;
+  margin-top: 0;
 }
 
 .article_image {
@@ -104,18 +104,30 @@ h1 {
 #tunasteak {
   background-image: url("./images/img-story-main.png");
   font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #earth {
   background-image: url("./images/img-story-2.png");
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #camera {
   background-image: url("./images/img-story-3.png");
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #cats {
   background-image: url("./images/img-story-1.png");
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 /* *****ROUND 5***** */
