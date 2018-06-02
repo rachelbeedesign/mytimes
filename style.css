@@ -51,26 +51,59 @@ nav a {
   position: relative;
   top: 90px;
   z-index: 4;
+  font-family: Georgia;
 }
 
-.large {
+.column_large {
   width: 630px;
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
 }
 
-.medium {
+.column_medium {
   width: 300px;
   display: flex;
-  margin: 15px;
+  margin: 0 30px;
   flex-shrink: 0;
   flex-direction: column;
 }
 
-.small {
+.column_small {
   width: 240px;
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
+}
+
+/* *****ROUND 3***** */
+
+.article_image {
+  display: flex;
+  font-weight: bold;
+  Font-size: 30px;
+  color: #fff;
+  height: 300px;
+}
+
+.article_story {
+  font-size: 170px;
+  color: #000;
+}
+
+#tunasteak {
+  background-image: url("./images/img-story-main.png");
+  font-size: 40px;
+}
+
+#earth {
+  background-image: url("./images/img-story-2.png");
+}
+
+#camera {
+  background-image: url("./images/img-story-3.png");
+}
+
+#cats {
+  background-image: url("./images/img-story-1.png");
 }
