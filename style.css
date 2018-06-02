@@ -54,6 +54,7 @@ nav a {
   justify-content: center;
   width: 100%;
   margin: 20px;
+  background-color: #abcdef;
 }
 
 .column_large {
@@ -126,20 +127,56 @@ h1 {
   width: 300px;
 }
 
-/* *****ROUND 5***** */
+/* *****ROUND ***** */
 .news_bites h2 {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
 }
 
-.news_bites li {
+.news_bites span {
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
   border-bottom: solid #000 1px;
-  margin: 0 0 0 -25px;
+  margin:0;
   padding: 11px 20px;
-  list-style-type: none;
+  display: block;
+}
+
+/* *****ROUND 6***** */
+.footer_style {
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: 30px auto 0 auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 90px;
+  height: 300px;
+  text-align: ;
+}
+
+#footer_my_times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_style span {
+  text-decoration: underline;
+  padding: 20px 10px;
+  list-style: none;
+  display: inline-block;
+  background-color:#;
+}
+
+.footer_style a {
+  color: #000;
 }
